@@ -1,0 +1,19 @@
+{
+  "name": "ratings-app",
+  "version": "1.0.0",
+  "description": "A ratings application using Node.js, React.js, and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjstromberg/ratings-app.git"
+  },
+  "author": "Michael Stromberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjstromberg/ratings-app/issues"
+  },
+  "homepage": "https://github.com/mjstromberg/ratings-app#readme"
+}
