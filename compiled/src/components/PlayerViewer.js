@@ -1,0 +1,8 @@
+"use strict";
+
+var PlayerViewer = function PlayerViewer() {
+  return React.createElement("div", null);
+};
+
+window.PlayerViewer = PlayerViewer;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL1BsYXllclZpZXdlci5qcyJdLCJuYW1lcyI6WyJQbGF5ZXJWaWV3ZXIiLCJ3aW5kb3ciXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBSUEsZUFBZSxTQUFmQSxZQUFlO0FBQUEsU0FDakIsZ0NBRGlCO0FBQUEsQ0FBbkI7O0FBSUFDLE9BQU9ELFlBQVAsR0FBc0JBLFlBQXRCIiwiZmlsZSI6IlBsYXllclZpZXdlci5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBQbGF5ZXJWaWV3ZXIgPSAoKSA9PiAoXG4gIDxkaXY+PC9kaXY+XG4pO1xuXG53aW5kb3cuUGxheWVyVmlld2VyID0gUGxheWVyVmlld2VyOyJdfQ==
