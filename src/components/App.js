@@ -12,6 +12,12 @@ class App extends React.Component {
     return (
       <div>
         <Nav />
+        <div className="col-md-7">
+          <PlayerViewer />
+        </div>
+        <div className="col-md-5">
+          <PlayerList />
+        </div>
       </div>
     );
   }
