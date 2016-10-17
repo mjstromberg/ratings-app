@@ -1,7 +1,7 @@
-var Search = (props) => (
-  <div className="search-bar form-inline">
-    <input className="form-control" type="text" />
-    <button className="btn hidden-sm-down">
+var Search = ({handleSearchEvent}) => (
+  <div>
+    <input type="text" placeholder="Search (Ex: LeBron James)" onChange={(event) => handleSearchEvent(event)}/>
+    <button>
       <i className="material-icons">search</i>
     </button>
   </div>

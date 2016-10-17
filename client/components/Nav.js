@@ -1,10 +1,10 @@
-var Nav = () => (
+var Nav = ({handleSearchEvent}) => (
   <div>
-    <div>NBA Player Ratings</div>
+    <div>NBA Player Stats: Last Game</div>
     <ul>
       <li>Home</li>
       <li>Players</li>
-      <Search />
+      <Search handleSearchEvent={handleSearchEvent} />
     </ul>
   </div>
 );
