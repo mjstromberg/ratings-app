@@ -1,6 +1,11 @@
 var express = require('express');
-var app = express();
+var mongoose = require('mongoose');
 var port = 8080;
+
+var app = express();
+
+// start the mongo database
+mongoose.connect('mongodb://localhost/basketball');
 
 app.use(express.static(__dirname + '/../client'));
 

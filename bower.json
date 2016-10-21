@@ -1,0 +1,25 @@
+{
+  "name": "ratings-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mjstromberg/ratings-app",
+  "authors": [
+    "Michael Stromberg"
+  ],
+  "main": "index.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~15.3.2",
+    "jQuery": "~3.1.1",
+    "bootstrap": "~3.3.7"
+  }
+}

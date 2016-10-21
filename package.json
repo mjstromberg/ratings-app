@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "babel client --out-dir client/compiled --ignore compiled --watch --source-maps inline --presets=es2015,react"
+    "test": "babel client --out-dir client/compiled --ignore=bower_components,compiled --watch --source-maps inline --presets=es2015,react"
   },
   "repository": {
     "type": "git",
